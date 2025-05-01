@@ -3,88 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Podcast</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            text-align: center;
-        }
-
-        .podcast-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            width: 80%;
-            max-width: 600px;
-        }
-
-        .podcast-title {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        .podcast-description {
-            font-size: 1.1em;
-            margin-bottom: 20px;
-            color: #555;
-        }
-
-        audio {
-            width: 100%;
-            margin-top: 20px;
-            border-radius: 8px;
-        }
-
-        .controls {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .controls a {
-            text-decoration: none;
-            color: white;
-            font-size: 1.2em;
-            margin-right: 20px;
-            padding: 8px 16px;
-            background-color: #ff6347;
-            border-radius: 5px;
-        }
-
-        .controls a:hover {
-            background-color: #ff4500;
-        }
-    </style>
+    <title>Inflation Podcast</title>
 </head>
 <body>
+    <h1>Welcome to the Inflation Podcast</h1>
 
-<div class="podcast-container">
-    <h1 class="podcast-title">My Awesome Podcast</h1>
-    <p class="podcast-description">Welcome to episode 1 of my podcast. Tune in to hear exciting topics on technology, trends, and innovation!</p>
+    <p>Click play to listen to the latest episode:</p>
 
     <!-- Audio Player -->
     <audio controls>
-        <source src="audio-file.mp3" type="audio/mpeg">
+        <source src="audio/audio-file.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
-    <!-- Extra controls -->
-    <div class="controls">
-        <a href="https://link-to-your-podcast.com" target="_blank">Listen on Spotify</a>
-        <a href="https://link-to-another-platform.com" target="_blank">Listen on Apple Podcasts</a>
-    </div>
-</div>
-
 </body>
 </html>
+
